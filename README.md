@@ -31,7 +31,7 @@ because sadly, (naive/well-meaning) **people** remain the "[**weakest link**](ht
 > Firstly we must come to terms with the fact that it's **impossible to be 100% secure** because there will
 _always_ be "_uncertainty_". That does not mean we should "_give up_"
 
-There are _many_ areas of IT security that people in your team(s) need to be aware of:
+There are _many_ areas of IT security that people in your team(s) need to be aware of, they include of:
 
 + Malware: https://youtu.be/cKlRc1_f5NY
 + Phishing: https://youtu.be/WpaLmeHTp3I
@@ -39,16 +39,13 @@ There are _many_ areas of IT security that people in your team(s) need to be awa
 
 ## How?
 
->
-
-Sadly there is no "***magic pill***" we can take to make everything secure,
+Sadly there is no "***magic pill***" we can take to make _everything_ secure,
 but there are _several_ principals/practices we can follow which will help.
 
 
 ## ISO 27001 ?
 
-
-+ Really good intro: http://www.iso27001security.com/html/27001.html
+> See: https://github.com/dwyl/ISO-27001-2013-information-technology-security
 
 
 ## Recommended Reading
