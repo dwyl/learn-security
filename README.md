@@ -1,4 +1,5 @@
-# Learn _`IT Security & Privacy`_
+# Learn _`IT Security & Privacy`_ [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/learn-security/issues)
+
 
 Security, Privacy and Data Protection in information technology
 systems is **NOT** "_**Optional**_". <br />
@@ -15,6 +16,10 @@ For _most_ (_small/medium_) **organizations** (_and **many** large ones!_) techn
 is an "[***afterthought***](https://en.wiktionary.org/wiki/afterthought#Noun)", <br />
 which people only _consider_ when they
 _have_ to; _usually when the "**unthinkable**" (data compromise) happens_...
+
+The loss of people's data can be [_devastating_](http://www.today.com/money/id-theft-can-take-heavy-emotional-toll-victims-1D80305639)
+_both_ on a personal and organizational level.
+
 
 ## _Who_?
 
@@ -40,8 +45,29 @@ need to be aware of, they include:
 
 ## How?
 
-Sadly there is no "***magic pill***" we can take to make _everything_ secure,
-but there are _several_ principals/practices we can follow which will help.
+![magic-pill](https://cloud.githubusercontent.com/assets/194400/21573069/440ea2d0-ced8-11e6-9dca-537e5dab857f.jpg)
+
+Sadly there is no "***magic pill***" we can take to make _everything_ secure. <br />
+Thankfully, there are _several_ simple principals/practices we can follow that will help!
+
+### Be Paranoid
+
+Be paranoid about security. <br />
+(_Sadly_) Personal data is ["**_Big_ Business**"](http://europe.newsweek.com/secretive-world-selling-data-about-you-464789) <br />
+(_Unscrupulous_) people/organizations _are_ (_actively_) trying to ["_acquire_"](https://www.engadget.com/2016/12/30/facebook-buys-data-on-users-offline-habits-for-better-ads/) your data. <br />
+"_Nasty_" people are _constantly_ running scripts, trying to ["_crack_" websites](http://www.forbes.com/sites/jameslyne/2013/09/06/30000-web-sites-hacked-a-day-how-do-you-host-yours). <br />
+If you _hope_ to be successful, you should _expect_ your website/application to
+be "_probed_" by somebody somewhere.
+Don't _wait_ till the _breach_ happens. Plan ahead and be paranoid!
+
+![image](https://cloud.githubusercontent.com/assets/194400/21573821/1efd939e-cee1-11e6-8cba-1142fa2efc82.png)
+
+> Highly recommend reading "**Only the Paranoid Survive**" by Andy Grove: <br />
+https://www.amazon.com/Only-Paranoid-Survive-Exploit-Challenge/dp/0385483821 <br />
+If you don't have "_time_" to read it, _listen_ to the summary: https://youtu.be/jisR88yR9pk <br />
+Also, watch: **10 Things to be Paranoid About as an Entrepreneur**: https://youtu.be/LqQomkp0P9Y
+
+
 
 ### Principal of _Least Priviledge_
 
@@ -55,12 +81,51 @@ https://en.wikipedia.org/wiki/Principle_of_least_privilege
 
 ### Never Share User Accounts/Passwords
 
-If you have an account on a system,
+If you have an account on a system (_e.g: GitHub or AWS_)
+maintain _accountability_ for yourself an others by _never_ sharing your account
+or password with others.
 
-> Note: this is why systems that charge per user-account per month
-are to be avoided because they _perversely_ incentivize people to
-share account in order to avoid paying for more "seats" or "licenses".
+> **Note**: this is not a question of "_trusting_" the people in your life/work!
+We trust drivers with our lives each time we get into a vehicle with them,
+but not all trust is the same. <br />
+_Most_ non-technical people do not have good "_security habits_". <br />
+**e.g**: _some_ people click on _any_ (_every_) link sent to them by "Facebook".
+_Most_ people cannot distinguish a "_real_" email from "Facebook" from a
+a fake (_phishing_) email. These people are _trivial_ to socially engineer.
+Despite our _multiple_ attempts to "_educate_" these people,
+unless they have "_felt the pain_" of identity fraud, for example,
+they are unlikely to see the _benefit_ of being _careful_ online.
 
+I know this might sound "dramatic" but if I can impress the _seriousness_ of this
+upon you, in a _memorable_ way I will do so:
+think about sharing your password like sharing a _needle_!
+
+![djs-dont-share-needles](https://cloud.githubusercontent.com/assets/194400/21574204/d9c1ae0e-cee6-11e6-8e45-9f686697cfe2.png)
+
+
+> Note: this is why systems that charge per user-account per month are to be avoided <br />
+because they _perversely_ incentivize people to
+share account in order to avoid paying <br />
+for more "seats" or "licenses". Salesforce/Jira/Microsoft we're looking at you!
+
+### Use Encryption!
+
+![encryption](https://cloud.githubusercontent.com/assets/194400/21574006/757862e2-cee3-11e6-8a84-6b1ab67c467f.jpeg)
+
+Encrypting data which does not need to be full-text searchable is _generally_ a good idea. <br />
+Encrypting any/all personally identifiable data required by your application is _essential_.
+
+> If you are new to cryptography (_encryption_) see:
+https://github.com/dwyl/learn-cryptography
+
+
+### OWASP Top 10
+
+The **O**pen **W**eb Application Security Project (OWASP)
+
+https://en.wikipedia.org/wiki/OWASP
+
+> Cheat Sheet: https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
 
 
 ## ISO 27001 ?
