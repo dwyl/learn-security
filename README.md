@@ -11,7 +11,7 @@ _convincing_ themselves that the problem will somehow go away.
 
 ## _Why_?
 
-For **most** (_small/medium_) **organizations** (_and **many** large ones!_) technology project(s) **security**
+For _most_ (_small/medium_) **organizations** (_and **many** large ones!_) technology project(s) **security**
 is an "[***afterthought***](https://en.wiktionary.org/wiki/afterthought#Noun)", <br />
 which people only _consider_ when they
 _have_ to; _usually when the "**unthinkable**" (data compromise) happens_...
@@ -31,7 +31,8 @@ because sadly, (naive/well-meaning) **people** remain the "[**weakest link**](ht
 > Firstly we must come to terms with the fact that it's **impossible to be 100% secure** because there will
 _always_ be "_uncertainty_". That does not mean we should "_give up_"
 
-There are _many_ areas of IT security that people in your team(s) need to be aware of, they include of:
+There are _many_ areas of IT security that people in your team(s)
+need to be aware of, they include:
 
 + Malware: https://youtu.be/cKlRc1_f5NY
 + Phishing: https://youtu.be/WpaLmeHTp3I
@@ -42,10 +43,30 @@ There are _many_ areas of IT security that people in your team(s) need to be awa
 Sadly there is no "***magic pill***" we can take to make _everything_ secure,
 but there are _several_ principals/practices we can follow which will help.
 
+### Principal of _Least Priviledge_
+
+> "_Every program and every privileged user of the system should operate
+using the **least** amount of **privilege necessary** to complete the job_."
+
+The level of access granted to a person/user or program/script should be
+only that necessary for its legitimate purpose. The simple rule of thumb is:
+if the person/program only needs read-access don't give it write access.
+https://en.wikipedia.org/wiki/Principle_of_least_privilege
+
+### Never Share User Accounts/Passwords
+
+If you have an account on a system,
+
+> Note: this is why systems that charge per user-account per month
+are to be avoided because they _perversely_ incentivize people to
+share account in order to avoid paying for more "seats" or "licenses".
+
+
 
 ## ISO 27001 ?
 
-> See: https://github.com/dwyl/ISO-27001-2013-information-technology-security
+If you are interested in the ISO 27001 Information Technology Security standard, <br />
+please see: https://github.com/dwyl/ISO-27001-2013-information-technology-security
 
 
 ## Recommended Reading
