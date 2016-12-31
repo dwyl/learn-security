@@ -18,7 +18,8 @@ which people only _consider_ when they
 _have_ to; _usually when the "**unthinkable**" (data compromise) happens_...
 
 The loss of people's data can be [_devastating_](http://www.today.com/money/id-theft-can-take-heavy-emotional-toll-victims-1D80305639)
-_both_ on a personal and organizational level.
+_both_ on a personal and organizational level.  <br />
+Why _not_ take a few simple steps to _prevent_ it...?
 
 
 ## _Who_?
@@ -27,7 +28,8 @@ _Everyone_ in your organization _**must**_ have a _**security mindset**_! <br />
 
 ![security-fail-cable-tie-chain](https://cloud.githubusercontent.com/assets/194400/21071637/a8ee1798-be9e-11e6-98b3-e08b3d4ad6ac.jpg)
 
-_Preferably **everyone** in all the organizations you **work/associate with** will have be **security-educated**,
+_Preferably **everyone** in all the organizations you **work/associate
+with** will have be **security-educated**, <br />
 because sadly, (naive/well-meaning) **people** remain the "[**weakest link**](http://www.cio.com/article/2895404/cybercrime/people-remain-the-weakest-link-in-security.html)"_.
 
 
@@ -97,16 +99,17 @@ unless they have "_felt the pain_" of identity fraud, for example,
 they are unlikely to see the _benefit_ of being _careful_ online.
 
 I know this might sound "dramatic" but if I can impress the _seriousness_ of this
-upon you, in a _memorable_ way I will do so:
-think about sharing your password like sharing a _needle_!
+upon you, in a _memorable_ way I will do so: <br />
+
+#### ... think about sharing your _account/password_ like sharing a _needle_!
 
 ![djs-dont-share-needles](https://cloud.githubusercontent.com/assets/194400/21574204/d9c1ae0e-cee6-11e6-8e45-9f686697cfe2.png)
 
 
-> Note: this is why systems that charge per user-account per month are to be avoided <br />
+> **Note**: this is why systems that charge per user-account per month are to be avoided <br />
 because they _perversely_ incentivize people to
 share account in order to avoid paying <br />
-for more "seats" or "licenses". Salesforce/Jira/Microsoft we're looking at you!
+for more "users", "seats" or "licenses". Salesforce/Atlassian/Microsoft we're looking at you!!
 
 ### Use Encryption!
 
@@ -121,9 +124,13 @@ https://github.com/dwyl/learn-cryptography
 
 ### OWASP Top 10
 
-The **O**pen **W**eb Application Security Project (OWASP)
+The **O**pen **W**eb **A**pplication **S**ecurity **P**roject (OWASP)
+is a great source of information <br />
+about the most common _vulnerabilities_ in web applications/sites. <br />
+see: https://en.wikipedia.org/wiki/OWASP
 
-https://en.wikipedia.org/wiki/OWASP
+Rather than _repeat_ the OWASP "Top 10" _here_ we _encourage_ you to
+view the list and _learn_ how each vulnerability on the list can be _mitigated_.
 
 > Cheat Sheet: https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
 
@@ -138,10 +145,7 @@ please see: https://github.com/dwyl/ISO-27001-2013-information-technology-securi
 
 + Why do we _still_ write insecure software? (_by Jeremy Bowers_): http://www.jerf.org/iri/post/2942
 + Google (_Online_) Safety Center: https://www.google.com/safetycenter (_lots of good advice_)
-+ The UK’s 15 most infamous data breaches:
-http://www.techworld.com/security/uks-most-infamous-data-breaches-2016-3604586/
-+ Cyber Security Breaches Survey 2016 (_Official UK Gov report_):
-https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/521465/Cyber_Security_Breaches_Survey_2016_main_report_FINAL.pdf
++ Node Security Resources: https://nodesecurity.io/resources (_loads of great resources!!_)
 + EU General Data Protection Regulation:
 https://en.wikipedia.org/wiki/General_Data_Protection_Regulation
 + **Robot Laws** (Data Protection Regulation - Tableflip Podcast):
@@ -151,6 +155,10 @@ https://ico.org.uk/for-organisations/guide-to-data-protection/
 + Data Protection Principals:
 https://ico.org.uk/for-organisations/guide-to-data-protection/data-protection-principles/
 + HTTPS and SSL in _plain english_: https://youtu.be/_p-LNLv49Ug
++ The UK’s 15 most infamous data breaches:
+http://www.techworld.com/security/uks-most-infamous-data-breaches-2016-3604586/
++ Cyber Security Breaches Survey 2016 (_Official UK Gov report_):
+https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/521465/Cyber_Security_Breaches_Survey_2016_main_report_FINAL.pdf
 + Calling Humans the “Weakest Link” in Computer Security Is Dangerous and Unhelpful:
 http://www.slate.com/blogs/future_tense/2016/01/22/calling_humans_the_weakest_link_in_computer_security_is_dangerous.html
 
