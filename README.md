@@ -145,13 +145,52 @@ please see: https://github.com/dwyl/ISO-27001-2013-information-technology-securi
 The General Data Protection Regulation (GDPR) is the new EU data protection
 framework that will take over from the UK Data Protection Act 1998 as of
 25th May 2018, for any organisations operating in or offering goods/services to
-the EU.
+individuals in the EU.
 
 > [For the UK] The government has confirmed that the UK’s decision to leave the EU will not affect the commencement of the GDPR.
 
 We have read through these and pulled out information _relevant to the kind of
-work that we do at dwyl_ but please see the [Recommended Reading](#recommended-reading)
-section below for resources with further details which may pertain to you.
+work that we do at dwyl_ and focus mostly on changes from DPA,
+but please see the [Recommended Reading](#recommended-reading)
+section below for resources with further details which may pertain to you and
+are not included here.
+
+#### Key Points
++ You must have a **lawful basis** to process personal data
+  + The most common one here might be ` 6(1)(a) – Consent of the data subject`,
+  but a list can be found at https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/key-areas-to-consider
++ **Consent**
+  + Must be **opt-in** ("consent cannot be inferred from silence, pre-ticked boxes or inactivity")
+  + Must be _separate_ from other Terms & Conditions
+  + Must provide simple ways for consent to be withdrawn
+  + No need to seek new consent from existing users _but_ "if you rely on
+  individuals’ consent to process their data, make sure it will meet the GDPR
+  standard on being specific, granular, clear, prominent, opt-in, properly
+  documented and easily withdrawn"
++ For services offered _directly_ to children, additional measures of protection
+for children's personal data will be put in place (see 'Children's Personal Data'
+section on this page: https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/key-areas-to-consider)
++ ***Actions*** around **individuals' rights**; individuals must:
+  + _Be informed_ of [a number of things](https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/individuals-rights/the-right-to-be-informed/)
+  upon provision of their information (either by them or by a 3rd party)
+  such as the legitimate interests of the party collecting the data and the  individual's right to withdraw consent at any time
+  + _Have [access](https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/individuals-rights/the-right-of-access/)_
+  to their personal data and how it is being processed **for free**, within one month of requesting it
+  + _Have the 'right to be forgotten'_ and completely [erased](https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/individuals-rights/the-right-to-erasure/) from the system
+  + _Have access to their data in a 'portable' form_ , i.e a [machine readable form](https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/individuals-rights/the-right-to-data-portability/)
+  such as CSV, within one month of the individual's request for the data
++ [Explicit accountability and transparency](https://github.com/dwyl/ISO-27001-2013-information-technology-security/blob/master/information-security-policy.md) policies & procedures
+are now required (this was implicit in DPA), such as https://github.com/dwyl/ISO-27001-2013-information-technology-security/blob/master/information-security-policy.md
+  + A good start for this is to have a code of conduct (see ['What will codes of conduct address?' section](https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/accountability-and-governance/) for more information)
++ Personal data _must_ be **stored inside the EU** (except in [exceptional circumstances](https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/transfer-of-data/))
++ Data _processors_ will now also be held liable for compliance, not just the data
+controllers (who decide what and why personal data is processed)
++ [Privacy Impact Assessments](https://ico.org.uk/media/for-organisations/documents/1595/pia-code-of-practice.pdf) are now mandatory for _certain high risk_ situations (this is still
+  evolving as of the time of writing)
+
+Fines for breaches and non-compliance are _considerably heftier_ than under DPA
+and remember, both [data controllers _and_ data processors](https://www.iabuk.net/policy/briefings/iab-uk-gdpr-checklist#data)
+are now liable under GDPR.
 
 
 ## Recommended Reading
