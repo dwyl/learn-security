@@ -71,7 +71,7 @@ Also, watch: **10 Things to be Paranoid About as an Entrepreneur**: https://yout
 
 
 
-### Principal of _Least Priviledge_
+### Principal of _Least Privilege_
 
 > "_Every program and every privileged user of the system should operate
 using the **least** amount of **privilege necessary** to complete the job_."
@@ -125,20 +125,33 @@ https://github.com/dwyl/learn-cryptography
 ### OWASP Top 10
 
 The **O**pen **W**eb **A**pplication **S**ecurity **P**roject (OWASP)
-is a great source of information <br />
+is a great source of information <br/>
 about the most common _vulnerabilities_ in web applications/sites. <br />
 see: https://en.wikipedia.org/wiki/OWASP
 
 Rather than _repeat_ the OWASP "Top 10" _here_ we _encourage_ you to
-view the list and _learn_ how each vulnerability on the list can be _mitigated_.
+view the list and _learn_ how each vulnerability on the list can be _mitigated_.**
 
 > Cheat Sheet: https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
 
+## Security Standards
 
-## ISO 27001 ?
+### ISO 27001 ?
 
 If you are interested in the ISO 27001 Information Technology Security standard, <br />
 please see: https://github.com/dwyl/ISO-27001-2013-information-technology-security
+
+### GDPR
+The General Data Protection Regulation (GDPR) is the new EU data protection
+framework that will take over from the UK Data Protection Act 1998 as of
+25th May 2018, for any organisations operating in or offering goods/services to
+the EU.
+
+> [For the UK] The government has confirmed that the UK’s decision to leave the EU will not affect the commencement of the GDPR.
+
+We have read through these and pulled out information _relevant to the kind of
+work that we do at dwyl_ but please see the [Recommended Reading](#recommended-reading)
+section below for resources with further details which may pertain to you.
 
 
 ## Recommended Reading
@@ -161,6 +174,7 @@ http://www.techworld.com/security/uks-most-infamous-data-breaches-2016-3604586/
 https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/521465/Cyber_Security_Breaches_Survey_2016_main_report_FINAL.pdf
 + Calling Humans the “Weakest Link” in Computer Security Is Dangerous and Unhelpful:
 http://www.slate.com/blogs/future_tense/2016/01/22/calling_humans_the_weakest_link_in_computer_security_is_dangerous.html
++ GDPR Overview and Latest Developments: https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/
 
 ## Videos
 
