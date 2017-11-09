@@ -130,9 +130,11 @@ about the most common _vulnerabilities_ in web applications/sites. <br />
 see: https://en.wikipedia.org/wiki/OWASP
 
 Rather than _repeat_ the OWASP "Top 10" _here_ we _encourage_ you to
-view the list and _learn_ how each vulnerability on the list can be _mitigated_.**
+view the list and _learn_ how each vulnerability on the list can be _mitigated_.
 
 > Cheat Sheet: https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
+
+
 
 ## Security Standards
 
