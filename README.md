@@ -50,7 +50,7 @@ need to be aware of, they include:
 ![magic-pill](https://cloud.githubusercontent.com/assets/194400/21573069/440ea2d0-ced8-11e6-9dca-537e5dab857f.jpg)
 
 Sadly there is no "***magic pill***" we can take to make _everything_ secure. <br />
-Thankfully, there are _several_ simple principals/practices we can follow that will help!
+Thankfully, there are _several_ simple principles/practices we can follow that will help!
 
 ### Be Paranoid
 
@@ -71,7 +71,7 @@ Also, watch: **10 Things to be Paranoid About as an Entrepreneur**: https://yout
 
 
 
-### Principal of _Least Privilege_
+### Principle of _Least Privilege_
 
 > "_Every program and every privileged user of the system should operate
 using the **least** amount of **privilege necessary** to complete the job_."
@@ -206,7 +206,7 @@ https://en.wikipedia.org/wiki/General_Data_Protection_Regulation
 https://overcast.fm/+HVTBxY7_w
 + Guide to data protection
 https://ico.org.uk/for-organisations/guide-to-data-protection/
-+ Data Protection Principals:
++ Data Protection Principles:
 https://ico.org.uk/for-organisations/guide-to-data-protection/data-protection-principles/
 + HTTPS and SSL in _plain english_: https://youtu.be/_p-LNLv49Ug
 + The UK’s 15 most infamous data breaches:
